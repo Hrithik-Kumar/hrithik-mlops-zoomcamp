@@ -3,7 +3,7 @@
 # control along with your flow code.
 
 # Generic metadata about this project
-name: homework-2025
+name: hrithik-mlops-zoomcamp-2024
 prefect-version: 3.4.4
 
 # build section allows you to manage and build docker images
@@ -31,8 +31,4 @@ deployments:
     name: zoomcamp
     work_queue_name: null
     job_variables: {}
-  schedules:
-  - interval: 3600.0
-    anchor_date: '2025-06-08T00:48:20.814739+00:00'
-    timezone: UTC
-    active: false
+  schedules: []
