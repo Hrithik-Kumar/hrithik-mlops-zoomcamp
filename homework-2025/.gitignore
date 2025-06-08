@@ -1,0 +1,36 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+*.pyc
+
+# MLflow tracking files (in all directories)
+**/mlruns/
+**/mlflow.db
+
+# Data files
+*.parquet
+*.csv
+
+# Model files
+model.bin
+
+# UV and poetry files
+.uv/
+.python-version
+poetry.lock
+uv.lock
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
