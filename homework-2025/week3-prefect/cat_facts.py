@@ -14,6 +14,7 @@ def fetch_cat_fact():
 @flow
 def fetch():
     fetch_cat_fact()
+    
 
 
 if __name__ == "__main__":
