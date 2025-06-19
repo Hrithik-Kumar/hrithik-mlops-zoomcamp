@@ -8,6 +8,8 @@ dependencies = [
     "black>=25.1.0",
     "boto3>=1.38.23",
     "fastparquet>=2024.11.0",
+    "flask>=3.1.1",
+    "gunicorn>=23.0.0",
     "hyperopt>=0.2.7",
     "jupyter>=1.1.1",
     "mlflow>=2.22.0",
@@ -16,12 +18,17 @@ dependencies = [
     "pandas>=2.2.3",
     "prefect>=3.4.4",
     "prefect-aws>=0.5.10",
-    "scikit-learn>=1.6.1",
+    "scikit-learn==1.6.1",
     "seaborn>=0.13.2",
     "xgboost>=3.0.2",
 ]
 
 [dependency-groups]
 dev = [
+    "gunicorn>=23.0.0",
     "ipykernel>=6.29.5",
 ]
+
+[tool.uv.sources]
+web-service = {path = "week4-deployment/web-service"}
+
